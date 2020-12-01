@@ -10,5 +10,10 @@ open powershell and type this:
 
 open your browser and type:  
 `http://localhost:8080`  
-then you can access wordpress installation
+
+then you can access wordpress installation  
+
+## Install MySQL
+
+`docker run -it -p 8080:80 -p 3306:3306 -d wordpress`
 
